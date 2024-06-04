@@ -13,11 +13,12 @@ public class Anagrams {
 		// Create frequency maps for both strings
 		Map<Character, Integer> frequencyMap1 = getFrequencyMap(s1);
 		Map<Character, Integer> frequencMap2 = getFrequencyMap(s2);
-		
+
 		// Compare the frequency maps
 		return frequencyMap1.equals(frequencMap2);
 
 	}
+
 	// Helper method to create a frequency map of characters in a string
 	private static Map<Character, Integer> getFrequencyMap(String str) {
 		Map<Character, Integer> frequencyMap = new HashMap<>();
@@ -31,6 +32,7 @@ public class Anagrams {
 		// Test cases
 		System.out.println(anagrams("listen", "silent"));
 		System.out.println(anagrams("apple", "pale"));
+		System.out.println(anagrams("itoot", "tooti"));
 	}
 
 }
