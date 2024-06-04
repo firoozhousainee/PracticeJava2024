@@ -1,6 +1,6 @@
 package structy;
 
-public class CompressChars {
+public class CompressingCharacters {
 	public static String compress(String s) {
 		// implement two pointer
 		int i = 0; // pointing to the index
@@ -10,7 +10,7 @@ public class CompressChars {
 		String result = "";
 
 		while (j < s.length()) {
-			if (s.charAt(j) == s.charAt(i)) { 
+			if (s.charAt(j) == s.charAt(i)) {
 				j += 1;
 			} else {
 				int count = j - i;
@@ -27,7 +27,7 @@ public class CompressChars {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(Compress.compress("aaabbbcccdddeee"));
+		System.out.println(CompressingCharacters.compress("aaabbbcccdddeee"));
 
 	}
 }
