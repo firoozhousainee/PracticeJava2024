@@ -1,4 +1,4 @@
-package structy;
+package structy_Iterative;
 
 /* Write a method, uncompress, that takes in a string as an argument. The input string will be formatted into multiple groups.
  * The method should return an uncompressed version of the string where each 'char' of a group is repeated 'number' times consecutively. 

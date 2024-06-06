@@ -1,4 +1,4 @@
-package structy;
+package structy_Iterative;
 
 public class CompressingCharacters {
 	public static String compress(String s) {
