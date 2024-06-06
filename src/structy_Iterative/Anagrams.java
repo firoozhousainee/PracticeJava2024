@@ -1,4 +1,4 @@
-package structy;
+package structy_Iterative;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -2,13 +2,9 @@
 public class EvenOddNum {
 
 	public static void main(String[] args) {
-		
-		
-		// The enhanced for-loop simplifies iteration over arrays and collections without needing to worry about indices.
-		
-		int m = 2;
-		int n = m--; 
-		System.out.println("what? + n");
+
+		// The enhanced for-loop simplifies iteration over arrays and collections
+		// without needing to worry about indices.
 
 		int evenNum = 2;
 		while (evenNum <= 100) {
@@ -22,7 +18,8 @@ public class EvenOddNum {
 			if (oddNum % 2 != 0) {
 				System.out.println("Odd numbers printing " + oddNum);
 			}
-			oddNum++;
+			oddNum++; // or oddNum = oddNum + 1;
+
 		}
 
 	}
