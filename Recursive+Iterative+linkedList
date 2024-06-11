@@ -1,0 +1,20 @@
+recursive code: when a function calls itself; we need to find the base case/s and the recursive statement/s
+to find the base, break it down the problem and pick the smallest piece
+
+iterative code: when a function uses a loop 
+
+linked list: linked nodes together; first node is head and last node is tail which point to null. 
+Binary Trees: node has child nodes. Every node has at most two children and that is why we call it binary 
+Root has no child. There is only one root
+leave node has no children 
+exactly one path between root and any node
+empty tree: tree with zero nodes 
+node.left
+node.right 
+node.null; when there is no node 
+the difference between a linked list and a binary tree is that we have left and right nodes but linked list we have next
+we import stack and use the rules of stack; removing from the top and adding them to values 
+
+Depth-first is finishing all the nodes from the fist child and going to the next child. we use stack to access the child nodes 
+However, breadth-first goes the first child, and second child and then back to the first child's children and back to the second child's children. we use queue; back and front. 
+so, in a queue, enter at last, and out at first. 
