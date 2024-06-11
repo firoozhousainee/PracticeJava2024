@@ -1,5 +1,6 @@
 package structy_Iterative;
 
+//Note: iterative is better in terms of time complexity 
 public class Fibonacci {
 	public static int fibonacci(int n) {
 		if (n == 0) {
